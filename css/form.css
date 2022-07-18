@@ -1,0 +1,29 @@
+.containerForm {
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.containerForm form {
+    margin-right: 20px;
+}
+
+.containerForm form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(82, 82, 153);
+    margin-bottom: 8px;
+}
+
+.containerForm form button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(82, 82, 153);
+    margin-left: 10px;
+    color: white;
+}

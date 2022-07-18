@@ -1,0 +1,123 @@
+.presentation {
+    display: none;
+    width: 100%;
+    min-height: 650px;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 17);
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+.image {
+    width: 260px;
+    height: 370px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.description {
+    color: white;
+    padding-top: 15px;
+}
+
+.divDescription {
+    max-width: 60%;
+    height: 300px;
+    margin-left: 450px;
+    margin-top: -390px;
+}
+
+.voteAverage {
+    color: white;
+    margin-left: 200px;
+    margin-top: -25px;
+    font-size: 22px;
+}
+
+.stars {
+    margin-top: -10px;
+}
+
+.fa-solid {
+    color: rgb(180, 180, 180);
+    font-size: 25px;
+}
+
+.colored {
+    color: yellow;
+}
+
+.date {
+    color: white;
+    margin-bottom: -12px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.trailer {
+    margin-left: 450px;
+    margin-top: -30px;
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(20, 161, 44);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.trailer:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.6s ease;
+    background-color: rgb(26, 182, 72);
+    margin-top: -20px;
+}
+
+.trailer:hover::after {
+    content: "\f144";
+    font-family: "Font Awesome 6 Free";
+    color: white;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.videoContainer {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(18, 18, 31);
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.video {
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.video:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease;
+}
+
+.mesage {
+    display: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(184, 46, 46);
+    max-width: 500px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 17px;
+}
