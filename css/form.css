@@ -17,6 +17,7 @@
     border: none;
     background-color: rgb(82, 82, 153);
     margin-bottom: 8px;
+    padding-left: 15px;
 }
 
 .containerForm form button {
@@ -30,17 +31,18 @@
 
 @media screen and (max-width: 900px) and (min-width: 250px) {
     .containerForm {
-        max-width: 100%;
+        margin-bottom: 15px;
     }
     .containerForm form {
-        margin-right: 0px;
+        margin-right: -10px;
+        padding: 20px;
     }
     .containerForm form input {
-        max-width: 500px;
+        max-width: 350px;
         height: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        display: block;
+        margin-right: 60px;
+        float: left;
     }
     .containerForm form button {
         display: none;
