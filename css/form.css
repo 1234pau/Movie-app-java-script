@@ -27,3 +27,22 @@
     margin-left: 10px;
     color: white;
 }
+
+@media screen and (max-width: 900px) and (min-width: 250px) {
+    .containerForm {
+        max-width: 100%;
+    }
+    .containerForm form {
+        margin-right: 0px;
+    }
+    .containerForm form input {
+        max-width: 500px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .containerForm form button {
+        display: none;
+    }
+}

@@ -121,3 +121,47 @@
     border-radius: 10px;
     padding-top: 17px;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 220px) {
+    .presentation {
+        display: none;
+        max-width: 100%;
+        max-height: 1000vh;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 490px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divDescription {
+        display: block;
+        max-width: 60%;
+        min-height: 300%;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trailer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .videoContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .video {
+        width: 300px;
+        height: 245px;
+    }
+}
