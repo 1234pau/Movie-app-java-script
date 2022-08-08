@@ -165,7 +165,7 @@ function showVideos(videos) {
 
             const iframe = document.createElement('iframe')
             iframe.classList.add('video')
-            iframe.src = `http://www.youtube.com/embed/${key}`;
+            iframe.src = `https://www.youtube.com/embed/${key}`;
             iframe.width = 280;
             iframe.height = 225;
             iframe.allowFullscreen = true;
