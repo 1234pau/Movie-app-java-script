@@ -168,6 +168,9 @@ function showVideos(videos) {
             iframe.src = `https://www.youtube.com/embed/${key}`;
             iframe.width = 280;
             iframe.height = 225;
+            iframe.title = "YouTube video player"
+            iframe.frameborder = "0"
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             iframe.allowFullscreen = true;
             videoContainer.appendChild(iframe)
             videoContainer.style.display = 'flex'
@@ -180,3 +183,4 @@ function showVideos(videos) {
     })
 
 }
+//<iframe width="560" height="315" src="https://www.youtube.com/embed/tgB1wUcmbbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
